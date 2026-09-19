@@ -1,0 +1,49 @@
+body{
+    background-color: #050810;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.pokedex{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/bk.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+img{ 
+    width: 200px;
+    height: 200px;
+   
+}
+.nomepokemon{
+    font-size: 25px;
+    color: white;
+}
+.org{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 20px;
+    
+}
+
+h1{
+        color: #10E956;
+        border: 2px solid #10E956;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #12141D;
+        text-align: center;
+    
+}
+h2{
+    color: white;
+}
